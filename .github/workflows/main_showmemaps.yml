@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js16
         uses: actions/setup-node@v1
         with:
-          node-version: "16"
+          node-version: "16.v"
 
       - name: npm install, build, and test
         run: |
