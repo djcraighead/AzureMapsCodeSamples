@@ -16,8 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set up Node.js version
-        uses: actions/setup-node@v16
+      - name: Set up Node.js16
+        uses: actions/setup-node@v1
         with:
           node-version: '16.x'
 
